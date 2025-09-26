@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="resourcepacks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/resourcepacks/empty-resourcepack.zip!/" />
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/resourcepacks/1.14.4.zip!/" />
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/resourcepacks/sample-resourcepack.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

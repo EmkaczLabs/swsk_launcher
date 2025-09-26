@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="mods">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/mods/fabric-sample-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/mods/sample-mod-1.13-no-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/mods/tweak-class.jar!/" />
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/mods/sample-ccc-mod.jar!/" />
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/mods/sample-nei-mod.jar!/" />
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/mods/sample-mod.jar!/" />
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/mods/fabric-sample.jar!/" />
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/mods/dummy-mod.jar!/" />
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/mods/sample-mod-1.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sample-map">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/xmcl/mock/saves/sample-map.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
