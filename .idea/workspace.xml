@@ -4,55 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="683df624-f4cc-4dad-8266-a3bcc24052b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/modpack.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mods.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/resourcepacks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sample_map.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/swsk_launcher.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="683df624-f4cc-4dad-8266-a3bcc24052b7" name="Changes" comment="visuals update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark.ico" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@256x256.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@256x256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@SmallTile.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@SmallTile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@SmallTile.scale-400.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@SmallTile.scale-400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@Square150x150Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@Square150x150Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@Square150x150Logo.scale-400.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@Square150x150Logo.scale-400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@Square44x44Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@Square44x44Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@Square44x44Logo.targetsize-256.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@Square44x44Logo.targetsize-256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@Square44x44Logo.targetsize-256_altform-unplated.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@Square44x44Logo.targetsize-256_altform-unplated.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@StoreLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@StoreLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@StoreLogo.scale-400.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@StoreLogo.scale-400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@tray.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/dark@tray.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/large-dark@LargeTile.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/large-dark@LargeTile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/large-dark@LargeTile.scale-200.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/large-dark@LargeTile.scale-200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/large-light@LargeTile.scale-200_theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/large-light@LargeTile.scale-200_theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/large-light@LargeTile.theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/large-light@LargeTile.theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light.ico" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light@256x256.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light@256x256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light@SmallTile.scale-400_theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light@SmallTile.scale-400_theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light@SmallTile.theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light@SmallTile.theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light@Square150x150Logo.scale-400_theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light@Square150x150Logo.scale-400_theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light@Square150x150Logo.theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light@Square150x150Logo.theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light@Square44x44Logo.targetsize-256_altform-lightunplated.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light@Square44x44Logo.targetsize-256_altform-lightunplated.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light@Square44x44Logo.targetsize-256_theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light@Square44x44Logo.targetsize-256_theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light@Square44x44Logo.theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light@Square44x44Logo.theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light@StoreLogo.scale-400_theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light@StoreLogo.scale-400_theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light@StoreLogo.theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light@StoreLogo.theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/light@tray.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/light@tray.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-dark@Wide310x150Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-dark@Wide310x150Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-dark@Wide310x150Logo.scale-150.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-dark@Wide310x150Logo.scale-150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-dark@Wide310x150Logo.scale-200.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-dark@Wide310x150Logo.scale-200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-dark@Wide310x150Logo.scale-400.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-dark@Wide310x150Logo.scale-400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-light@Wide310x150Logo.scale-200_theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-light@Wide310x150Logo.scale-200_theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-light@Wide310x150Logo.scale-400_theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-light@Wide310x150Logo.scale-400_theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-light@Wide310x150Logo.theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-light@Wide310x150Logo.theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-light@Wie310x150Logo.scale-150_theme-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/icons/wide-light@Wie310x150Logo.scale-150_theme-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/src/assets/logo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/src/assets/logo.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/src/views/AppFeedbackDialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/src/views/AppFeedbackDialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/build/electron-builder.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/build/electron-builder.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Shell Script.main.executor": "Run",
     "Shell Script.renderer.executor": "Run",
     "git-widget-placeholder": "main",
@@ -100,7 +58,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\wwmky\\IdeaProjects\\swsk_launcher\\xmcl\\packages\\system\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\wwmky\\IdeaProjects\\swsk_launcher\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -161,11 +119,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758925811938</updated>
-      <workItem from="1758925813671" duration="3130000" />
+      <workItem from="1758925813671" duration="10116000" />
     </task>
+    <task id="LOCAL-00001" summary="visuals update">
+      <option name="closed" value="true" />
+      <created>1758929547573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758929547573</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="visuals update" />
+    <option name="LAST_COMMIT_MESSAGE" value="visuals update" />
   </component>
 </project>

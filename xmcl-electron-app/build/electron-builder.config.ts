@@ -5,16 +5,16 @@ import type { Configuration } from 'electron-builder'
 dotenv()
 
 export const config = {
-  productName: 'X Minecraft Launcher',
-  appId: 'xmcl',
+  productName: 'SWSK Launcher',
+  appId: 'com.swsk.launcher',
   directories: {
     output: 'build/output',
     buildResources: 'build',
     app: '.',
   },
   protocols: {
-    name: 'XMCL',
-    schemes: ['xmcl'],
+    name: 'SWSK',
+    schemes: ['swsk'],
   },
   // assign publish for auto-updater
   // set this to your own repo!
@@ -32,18 +32,19 @@ export const config = {
     to: '.',
     filter: 'package.json',
   }],
-  artifactName: 'xmcl-${version}-${platform}-${arch}.${ext}',
+  artifactName: 'swsk-launcher-${version}-${platform}-${arch}.${ext}',
   appx: {
-    displayName: 'X Minecraft Launcher',
-    applicationId: 'xmcl',
-    identityName: 'xmcl',
+    displayName: 'SWSK Launcher',
+    applicationId: 'com.swsk.launcher',
+    identityName: 'swsk.launcher',
     backgroundColor: 'transparent',
-    publisher: process.env.PUBLISHER,
-    publisherDisplayName: 'CI010',
+    // Default publisher values. For AppX, publisher should be in certificate subject form (e.g. 'CN=YourName').
+    publisher: process.env.PUBLISHER || 'CN=emkacz',
+    publisherDisplayName: 'emkacz',
     setBuildNumber: true,
   },
   dmg: {
-    artifactName: 'xmcl-${version}-${arch}.${ext}',
+    artifactName: 'swsk-launcher-${version}-${arch}.${ext}',
     contents: [
       {
         x: 410,
@@ -59,7 +60,7 @@ export const config = {
     ],
   },
   mac: {
-    icon: 'icons/dark.icns',
+    icon: 'icons/swsk.icns',
     darkModeSupport: true,
     target: [
       {
@@ -76,7 +77,7 @@ export const config = {
   },
   win: {
     certificateFile: undefined as string | undefined,
-    icon: 'icons/dark.ico',
+    icon: 'icons/swsk.ico',
     target: [
       {
         target: 'zip',
@@ -86,17 +87,31 @@ export const config = {
         ],
       },
       'appx',
+      {
+        target: 'nsis',
+        arch: [
+          'x64',
+          'ia32',
+        ],
+      },
     ],
   },
+  nsis: {
+    oneClick: false,
+    perMachine: false,
+    allowToChangeInstallationDirectory: true,
+    createDesktopShortcut: true,
+    createStartMenuShortcut: true,
+  },
   linux: {
-    executableName: 'xmcl',
+    executableName: 'swsk-launcher',
     desktop: {
-      MimeType: 'x-scheme-handler/xmcl',
-      StartupWMClass: 'xmcl',
+      MimeType: 'x-scheme-handler/swsk',
+      StartupWMClass: 'swsk-launcher',
     },
     category: 'Game',
-    icon: 'icons/dark.icns',
-    artifactName: 'xmcl-${version}-${arch}.${ext}',
+    icon: 'icons/swsk.png',
+    artifactName: 'swsk-launcher-${version}-${arch}.${ext}',
     target: [
       { target: 'deb', arch: ['x64', 'arm64'] },
       { target: 'rpm', arch: ['x64', 'arm64'] },

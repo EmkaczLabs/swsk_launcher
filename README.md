@@ -98,6 +98,98 @@ This project is licensed under the MIT License — see the `LICENSE` file for de
 
 ---
 
+## Troubleshooting: node-gyp / "No module named 'distutils'" (Windows)
+
+You may see an error like this when running workspace builds on Windows:
+
+    ModuleNotFoundError: No module named 'distutils'
+    Error: `gyp` failed with exit code: 1
+
+This happens because Python 3.12+ removed the legacy `distutils` module from the standard library. `node-gyp` (used to build native Node/Electron modules) imports `distutils`, so it fails if the Python used by npm/pnpm doesn't provide it.
+
+Recommended fixes (safe, in order):
+
+1) Install Python 3.11 (recommended)
+
+- Install CPython 3.11 from https://www.python.org/downloads/release/python-311/ and check the installer option "Add Python 3.11 to PATH".
+- Upgrade packaging tools:
+
+  cmd.exe:
+
+  ```cmd
+  python --version
+  python -m pip install --upgrade pip setuptools wheel
+  ```
+
+  PowerShell:
+
+  ```powershell
+  python --version
+  python -m pip install --upgrade pip setuptools wheel
+  ```
+
+- Point npm/pnpm/node-gyp to the Python executable (replace path if necessary):
+
+  cmd.exe:
+
+  ```cmd
+  npm config set python "%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Python311\\python.exe"
+  setx PYTHON "%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Python311\\python.exe"
+  ```
+
+  PowerShell:
+
+  ```powershell
+  npm config set python "C:\\Path\\To\\Python311\\python.exe"
+  [Environment]::SetEnvironmentVariable("PYTHON", "C:\\Path\\To\\Python311\\python.exe", "User")
+  ```
+
+- Install Visual C++ Build Tools (C++ workload). Download from: https://visualstudio.microsoft.com/downloads/ → "Tools for Visual Studio" → "Build Tools for Visual Studio 2022". Restart your shell after install.
+
+2) Alternative: create a small "distutils" shim if you must keep Python 3.12+ (advanced)
+
+If you cannot install Python 3.11 immediately, you can add a tiny shim that exposes `distutils` using setuptools' bundled `_distutils`. This modifies your Python environment and should be used only as a temporary workaround.
+
+  cmd.exe (run as an administrator or in a virtualenv):
+
+  ```cmd
+  python -m pip install --upgrade pip setuptools
+  python -c "import site, os, sys; p=site.getsitepackages()[0]; d=os.path.join(p,'distutils'); os.makedirs(d,exist_ok=True); open(os.path.join(d,'__init__.py'),'w').write('from setuptools._distutils import *')"
+  ```
+
+  PowerShell:
+
+  ```powershell
+  python -m pip install --upgrade pip setuptools
+  $p = (python -c "import site,sys; print(site.getsitepackages()[0])")
+  $d = Join-Path $p 'distutils'
+  New-Item -ItemType Directory -Path $d -Force | Out-Null
+  Set-Content -Path (Join-Path $d '__init__.py') -Value 'from setuptools._distutils import *'
+  ```
+
+Note: the shim is a hack and may not work in all environments (virtualenvs, user vs system site-packages). Prefer installing Python 3.11 instead.
+
+3) Re-run the workspace install/build
+
+After making the Python/tooling changes, re-open your terminal and run from project root:
+
+```cmd
+pnpm install
+pnpm build:all
+```
+
+If you still see node-gyp errors, capture the Python version and paths to help debugging:
+
+```cmd
+python --version
+where python
+npm config get python
+pnpm -v
+node -v
+```
+
+---
+
 ## Useful links
 
 - Project website: https://xmcl.app
