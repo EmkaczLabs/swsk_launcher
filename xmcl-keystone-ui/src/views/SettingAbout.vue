@@ -11,7 +11,7 @@
               <v-card-title class="w-full flex mr-2 title">
                 <v-img src="http://launcher/icons/logoDark" alt="XMCL Logo" max-width="64" class="mr-4"></v-img>
                 <div>
-                  <a class="text-h5" href="https://www.xmcl.app">X Minecraft Launcher</a>
+                  <a class="text-h5" href="https://www.xmcl.app">swsk launcher</a>
                   <div class="flex justify-center items-center gap-2 pt-1">
                     <a href="https://afdian.com/a/ci010" class="flex items-center justify-center">
                       <img

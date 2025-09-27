@@ -6,8 +6,8 @@ AppAddInstanceDialog:
   serverTitle: Wprowadź adres serwera
 AppShareInstanceDialog:
   alterDownloadDescription: |-
-    Jeśli nie chcesz zepsuć bieżącej instancji. 
-    Możesz także utworzyć nową instancję na podstawie konfiguracji partnera. 
+    Jeśli nie chcesz zepsuć bieżącej instancji.
+    Możesz także utworzyć nową instancję na podstawie konfiguracji partnera.
     Kliknij przycisk poniżej, aby utworzyć instancję.
   baseInfo: Ustawienia podstawowe
   cancelShare: Anuluj udostępnianie
@@ -15,8 +15,8 @@ AppShareInstanceDialog:
     Po udostępnieniu profilu inne miejsce może pobrać te pliki za pośrednictwem
     komputera.
   downloadDescription: |-
-    Sprawdź pliki, które dostarczył Ci inny użytkownik. 
-    Wybierz plik, który chcesz pobrać. 
+    Sprawdź pliki, które dostarczył Ci inny użytkownik.
+    Wybierz plik, który chcesz pobrać.
     Zostanie umieszczony w bieżącej instancji {name}.
   downloadNotifyTitle: Pobierz instancję z {user}
   downloadTitle: Pobieranie plików z innych urządzeń równorzędnych
@@ -100,7 +100,7 @@ ago:
 askAICrash:
   copyPrompt: Skopiuj monit o zapytanie AI
   description: >-
-    Niech AI pomoże ci zrozumieć awarię gry! 
+    Niech AI pomoże ci zrozumieć awarię gry!
 
     Postępuj zgodnie z poniższymi instrukcjami, aby zapytać AI o tę katastrofę
     gry!
@@ -244,7 +244,7 @@ diagnosis:
   missingLibraries:
     message: Launcher zainstaluje biblioteki za ciebie
     name: >-
-      Brakująca {name} Brakująca | Biblioteka {name} Brakująca | Biblioteka 
+      Brakująca {name} Brakująca | Biblioteka {name} Brakująca | Biblioteka
       {count} Brakująca | Biblioteka {count} Biblioteka
   missingVersion:
     message: Kliknij, aby zainstalować tę wersję
@@ -294,8 +294,8 @@ errors:
     prawidłowo! Wybierz katalog do którego program uruchamiający ma dostęp.
     Możesz spróbować zresetować katalog główny danych na stronie ustawień.
   DiskIsFull: |-
-    Twój dysk jest pełny! 
-    Nie mogę nic napisać na dysku! 
+    Twój dysk jest pełny!
+    Nie mogę nic napisać na dysku!
     Wszystkie funkcje mogą nie być funkcjonalne!
   DownloadAggregateError: Nie można pobrać pliku.
   DownloadFileSystemError: >-
@@ -459,7 +459,7 @@ instance:
   launchArguments: Podgląd uruchamiania argumentów
   launchServer: Uruchom serwer localhost
   linkFileDesc: |-
-    Spowoduje to zastąpienie instancji lokalnego {file} globalnym {file}. 
+    Spowoduje to zastąpienie instancji lokalnego {file} globalnym {file}.
     Czy na pewno to powiązać?
   linkFileTitle: Czy na pewno chcesz połączyć {file}?
   mcOptions: Opcje Minecraft
@@ -514,11 +514,11 @@ instanceInstallSkip:
   skip: Pominąć
   title: Potencjalne uszkodzone źródło pliku
   warning: >-
-    Niektóre pliki są pobierane wielokrotnie z niezgodną sumą kontrolną. 
+    Niektóre pliki są pobierane wielokrotnie z niezgodną sumą kontrolną.
 
-    Może to wynikać z tego, że pierwotna suma kontrolna jest niepoprawna. 
+    Może to wynikać z tego, że pierwotna suma kontrolna jest niepoprawna.
 
-    Proszę sprawdzić. 
+    Proszę sprawdzić.
 
     Jeśli potwierdzisz, że bieżące pliki są prawidłowe, możesz pominąć
     sprawdzanie poprawności.
@@ -552,28 +552,28 @@ instanceUpdate:
   basic: Aktualizacja ustawień
   files: Aktualizacje plików
   loaderChanged: >-
-    Modloader tej instancji został zmieniony. 
+    Modloader tej instancji został zmieniony.
 
     Stary moduł ładujący to {modloader}, a nowy moduł ładujący to
     {newModloader}.
   summary: |-
-    Dodaj pliki {add}. 
-    Usuń pliki {remove}. 
+    Dodaj pliki {add}.
+    Usuń pliki {remove}.
     Zachowaj pliki {keep}.
   title: Aktualizacja instancji
   update: Rozpoczęcie aktualizacji
 instances:
   add: Utwórz grę
   addCurseForgeDescription: |-
-    Importuj z folderu danych curveforge. 
+    Importuj z folderu danych curveforge.
     Musisz wybrać główny folder danych Curveforge
   addDescription: Utwórz nową instancję od podstaw
   addMMCDescription: |-
-    Zaimportuj istniejącą instancję MultiMC. 
+    Zaimportuj istniejącą instancję MultiMC.
     Musisz wybrać folder danych z MultiMC.
   addManually: Ręczne tworzenie
   addModrinthDescription: |-
-    Zaimportuj istniejącą instancję Modrinth. 
+    Zaimportuj istniejącą instancję Modrinth.
     Musisz wybrać główny folder danych Modrinth.
   addServer: Utwórz z serwera
   addServerDescription: Spowoduje to bezpośrednie uruchomienie gry na serwerze.
@@ -744,7 +744,7 @@ loginError:
     Nie udało się wymienić tokena Minecraft na token XBox. Upewnij się, że masz
     Minecraft w Xbox lub spróbuj ponownie.
   loginXboxAgeRestricted: >-
-    Nie zalogować się Xbox z powodu problemu wieku. 
+    Nie zalogować się Xbox z powodu problemu wieku.
 
     Upewnij się, że wiek jest ustawiony na konto Microsoft, a wiek powyżej 18
     lat.
@@ -752,7 +752,7 @@ loginError:
     Nie można zalogować się do Xbox za pomocą tokena Microsoft. Upewnij się, że
     masz niezależne konto Xbox od konta Microsoft. Spróbuj ponownie.
   noProfileForNewUser: >-
-    Nie znaleziono profilu gry! 
+    Nie znaleziono profilu gry!
 
     Jeśli jesteś nowym użytkownikiem Minecraft, zaloguj się przynajmniej raz w
     oficjalnym wyrzutni Minecraft.
@@ -794,8 +794,8 @@ mod:
   dropHint: Upuść .jar/.litemod moda tutaj, aby zaimportować.
   duplicatedDetected: '{count} zduplikowanych modów'
   duplicatedDetectedDescription: |-
-    Znaleziono mody o tym samym identyfikatorze moda, ale różnych plikach. 
-    Może to spowodować awarię gry Minecraft. 
+    Znaleziono mody o tym samym identyfikatorze moda, ale różnych plikach.
+    Może to spowodować awarię gry Minecraft.
     Wybierz plik, który chcesz zachować.
   enabled: '{count} Modyfikacje włączone'
   filter: Modyfikacje filtra
@@ -806,12 +806,12 @@ mod:
   incompatible: Niekompatybilny mod.
   incompatibleHint: Sprawdź raport zgodności modów
   incompatibleHintDescription: |-
-    Może brakować niektórych zależności modów. 
+    Może brakować niektórych zależności modów.
     Lub niektóre wersje zależności nie są dopasowane.
   manage: Zarządzanie modami
   maybeCompatible: Może być kompatybilny.
   modloaderSelectHint: |-
-    Mod obsługuje następujące moduły ładujące mod. 
+    Mod obsługuje następujące moduły ładujące mod.
     Wybierz jeden do zainstalowania.
   modloaderSelectNotSupported: Nie znaleziono {modloadera} dla Minecrafta {minecraft}
   mods: '{count} Mody'
@@ -838,7 +838,7 @@ modFilter:
   unusedOnly: Pokaż tylko niewykorzystane mody bibliotek
 modInstall:
   archived: >-
-    {name} zostało zarchiwizowane. 
+    {name} zostało zarchiwizowane.
 
     {name} nie otrzyma żadnych dalszych aktualizacji, chyba że autor zdecyduje
     się na rozpakowanie projektu.
@@ -908,7 +908,7 @@ modpack:
   urlHint: Adres URL strony głównej modpacka
 modpackImportConfirm:
   description: |-
-    Wykryjesz upuszczenie pliku do uruchamiającego. 
+    Wykryjesz upuszczenie pliku do uruchamiającego.
     Czy próbujesz zaimportować modpack?
   title: Czy próbujesz zaimportować modpack?
 modrinth:
@@ -1037,7 +1037,7 @@ modrinth:
   licenses:
     name: Licencje
   loginHint: |-
-    Operacja wymaga wykonania Modrinth. 
+    Operacja wymaga wykonania Modrinth.
     Launcher otworzy okno przeglądarki do logowania Modrinth.
   modLoaders:
     name: Mod Loadery
@@ -1128,7 +1128,7 @@ multiplayer:
   joinOrCreateGroupHint: Uzyskaj identyfikator grupy od znajomych lub utwórz grupę
   kernel: Jądro P2P
   kernelDescription: >-
-    Użyj natywnego WebRTC lub kanału danych węzła. 
+    Użyj natywnego WebRTC lub kanału danych węzła.
 
     Przełącz tę opcję tylko wtedy, gdy połączenie p2p spowoduje awarię okna
     programu uruchamiającego.
@@ -1312,11 +1312,11 @@ server:
   expectedVersions: Obsługiwane wersje
   export: Serwer eksportowy
   exportNoFilesHint: |-
-    Nie znaleziono plików serwerów. 
+    Nie znaleziono plików serwerów.
     Możesz uruchomić serwer na lokalnym raz, aby wygenerować niektóre pliki.
   exportOption: Opcje eksportu serwera
   exportSSHAuthenticationFailed: |-
-    Wszystkie metody uwierzytelniania nie powiodły się. 
+    Wszystkie metody uwierzytelniania nie powiodły się.
     Sprawdź nazwę użytkownika/hasło lub klucz prywatny.
   exportSSHOptions: Opcje SSH
   exportSSHPrivateKeyPath: SSH Prywatna ścieżka kluczowa
@@ -1526,8 +1526,8 @@ setup:
       Wybrany katalog nie jest pusty. W porządku, ale upewnij się, że wykonałeś
       kopię zapasową danych.
     invalidChar: |-
-      Ścieżka zawiera nieprawidłowe znaki! 
-      Może to spowodować, że Minecraft nie zaczął się! 
+      Ścieżka zawiera nieprawidłowe znaki!
+      Może to spowodować, że Minecraft nie zaczął się!
       Plaese używają tylko angielskich postaci i symbolu!
     noPermission: Launcher nie ma uprawnień dostępu do wybranego katalogu! Spróbuj inny.
     nonDictionary: Selected path is a file! Please select a directory!
@@ -1625,7 +1625,7 @@ theme:
   selectMusic: Wybierz muzykę
   selectVideo: Wybierz wideo
   title: X Minecraft Launcher
-title: X Minecraft Launcher
+title: SWSK Launcher
 transportType:
   host: Kandydat na gospodarza
   prflx: Refleksyjny kandydat na rówieśnika
@@ -1789,12 +1789,3 @@ userSkin:
   urlNotEmpty: Adres URL skórki nie może być pusty
   urlNotValid: Adres URL skórki jest nieprawidłowy
   useSlim: Użyj modelu Slim
-version:
-  name: Wersja | Wersje
-  notInstalled: Wersja nie jest zainstalowana
-versionType:
-  alpha: Alpha
-  beta: Beta
-  name: Status
-  release: Release
-'yes': Tak

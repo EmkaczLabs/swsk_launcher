@@ -6,10 +6,36 @@
   <component name="ChangeListManager">
     <list default="true" id="683df624-f4cc-4dad-8266-a3bcc24052b7" name="Changes" comment="visuals update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/build.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/build.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/build/appxmanifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/build/appxmanifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xmcl-electron-app/build/electron-builder.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/build/electron-builder.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/controllers/notification.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/controllers/notification.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/locales/de.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/locales/de.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/locales/en.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/locales/en.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/locales/fr.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/locales/fr.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/locales/pl.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/locales/pl.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/locales/zh-CN.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/locales/zh-CN.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/locales/zh-TW.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/locales/zh-TW.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/utils/appinstaller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/utils/appinstaller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/utils/protocol.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/utils/protocol.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xmcl-electron-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/postinstall.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/postinstall.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/locales/fr.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/locales/fr.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/locales/kz.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/locales/kz.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/locales/pl.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/locales/pl.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/locales/pt-BR.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/locales/pt-BR.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/locales/ru.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/locales/ru.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/locales/uk.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/locales/uk.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/locales/zh-CN.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/locales/zh-CN.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/locales/zh-TW.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/locales/zh-TW.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/src/multiplayer.html" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/src/multiplayer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/src/util/crashPrompt.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/src/util/crashPrompt.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/src/views/SettingAbout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/src/views/SettingAbout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-runtime/app/BaseService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-runtime/app/BaseService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-runtime/constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-runtime/constant.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-runtime/launch/LaunchService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-runtime/launch/LaunchService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmcl-runtime/yggdrasilServer/pluginYggdrasilHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-runtime/yggdrasilServer/pluginYggdrasilHandler.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,49 +45,56 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "emkacztoja"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;emkacztoja&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/EmkaczLabs/swsk_launcher.git",
-    "accountId": "12cf5a64-695d-4504-b9ad-eb8f6f87a587"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EmkaczLabs/swsk_launcher.git&quot;,
+    &quot;accountId&quot;: &quot;12cf5a64-695d-4504-b9ad-eb8f6f87a587&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="33FvoeASZ4OmNRC68ASGXdSOCAU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Shell Script.main.executor": "Run",
-    "Shell Script.renderer.executor": "Run",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\wwmky\\IdeaProjects\\swsk_launcher\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Shell Script.main.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.renderer.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/swsk_build&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\swsk_build\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wwmky\IdeaProjects\swsk_launcher\xmcl-electron-app\main\locales" />
+    </key>
+  </component>
   <component name="RunManager" selected="Shell Script.main">
     <configuration name="Unnamed" type="CompoundRunConfigurationType">
       <toRun name="main" type="ShConfigurationType" />
@@ -119,7 +152,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758925811938</updated>
-      <workItem from="1758925813671" duration="10116000" />
+      <workItem from="1758925813671" duration="14646000" />
+      <workItem from="1759012472150" duration="133000" />
+      <workItem from="1759012650106" duration="402000" />
     </task>
     <task id="LOCAL-00001" summary="visuals update">
       <option name="closed" value="true" />
@@ -129,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758929547573</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="visuals update">
+      <option name="closed" value="true" />
+      <created>1759007621762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759007621762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

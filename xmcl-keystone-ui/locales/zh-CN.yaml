@@ -507,7 +507,7 @@ instanceInstallSkip:
 instanceSetting:
   disableAuthlibInjector: 禁用 authlib 注入器
   disableAuthlibInjectorDescription: |-
-    如果您使用的是第三方皮肤系统。 
+    如果您使用的是第三方皮肤系统。
     authlib 注入器可以帮助您在游戏中显示皮肤。
   disableElyByAuthlib: 禁用 ely.by 的 authlib 替换
   disableElyByAuthlibDescription: Ely.by 有一个独特的 authlib 替代品，可以在任何服务器中普遍显示皮肤。
@@ -1437,7 +1437,7 @@ setup:
     language: 当前语言
     name: 设置语言
   path: 当前位置
-  title: 欢迎使用 X Minecraft Launcher。在开始前，需要您先
+  title: 欢迎使用 swsk launcher。在开始前，需要您先
 shaderPack:
   deletion: 删除光影包
   deletionHint: 这将把光影包文件 {path} 永久删除。
@@ -1544,7 +1544,7 @@ tutorial:
   launchDescription: 点击此按钮安装或启动游戏。
   mod:
     defaultSourceDescription: |-
-      您可以在此处选择模组详细信息的来源。 
+      您可以在此处选择模组详细信息的来源。
       Modrinth 和 Curseforge 均发布了模组。
       如果您想在这两个内容提供商之间切换。
       您可以在此处更改该值。

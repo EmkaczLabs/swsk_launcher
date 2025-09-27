@@ -20,8 +20,8 @@ export const config = {
   // set this to your own repo!
   publish: [{
     provider: 'github',
-    owner: 'voxelum',
-    repo: 'x-minecraft-launcher',
+    owner: 'EmkaczLabs',
+    repo: 'swsk_launcher',
   }],
   files: [{
     from: 'dist',
@@ -87,13 +87,8 @@ export const config = {
         ],
       },
       'appx',
-      {
-        target: 'nsis',
-        arch: [
-          'x64',
-          'ia32',
-        ],
-      },
+      // Re-enabled 'nsis' target because makensis is installed system-wide via Chocolatey
+      { target: 'nsis', arch: ['x64', 'ia32'] },
     ],
   },
   nsis: {

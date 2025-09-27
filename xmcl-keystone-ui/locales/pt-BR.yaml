@@ -104,7 +104,7 @@ ago:
 askAICrash:
   copyPrompt: Copie o prompt para perguntar ai
   description: |-
-    Deixe a IA ajudá -lo a entender o acidente de jogo! 
+    Deixe a IA ajudá -lo a entender o acidente de jogo!
     Siga as instruções abaixo para perguntar à IA sobre este acidente de jogo!
   selectPlatform: Abra uma plataforma de IA e cole o aviso que acabou de copiar.
 authProfileAddedNotification: Perfil de autenticação {name} adicionado
@@ -330,8 +330,8 @@ errors:
     um diretório de dados que o launcher possa acessar. Você pode tentar
     redefinir o diretório raiz de dados na página de configurações.
   DiskIsFull: |-
-    Seu disco está cheio! 
-    Não é possível escrever nada no disco! 
+    Seu disco está cheio!
+    Não é possível escrever nada no disco!
     Todos os recursos podem não ser funcionais!
   DownloadAggregateError: Falha ao baixar o arquivo.
   DownloadFileSystemError: >-
@@ -555,12 +555,12 @@ instanceInstallSkip:
   title: Fonte de arquivo potencialmente corrompida
   warning: >-
     Alguns arquivos são baixados várias vezes com soma de verificação
-    incomparável. 
+    incomparável.
 
     Isso pode ser devido ao fato de a soma de verificação original estar
-    incorreta. 
+    incorreta.
 
-    Por favor, verifique. 
+    Por favor, verifique.
 
     Se você confirmar que os arquivos atuais são válidos, poderá ignorar a
     verificação de validação.
@@ -597,8 +597,8 @@ instanceUpdate:
     O modloader dessa instância foi alterado. O modload antigo era {modloader},
     e o novo modloader é {newMod}
   summary: |-
-    Adicione os arquivos {add}. 
-    Remova os arquivos {remove}. 
+    Adicione os arquivos {add}.
+    Remova os arquivos {remove}.
     Mantenha os arquivos {keep}.
   title: Atualizar instância
   update: Iniciar atualização
@@ -782,7 +782,7 @@ loginError:
     Falha ao trocar o token do Minecraft pelo token do Xbox. Certifique-se de
     que você tenha o Minecraft no Xbox ou tente novamente.
   loginXboxAgeRestricted: >-
-    Falha ao login Xbox devido ao problema da idade. 
+    Falha ao login Xbox devido ao problema da idade.
 
     Verifique se a idade está definida para sua conta da Microsoft e a idade
     está acima dos 18 anos.
@@ -791,7 +791,7 @@ loginError:
     você tenha uma conta independente do Xbox para sua conta da Microsoft. Tente
     novamente.
   noProfileForNewUser: >-
-    Nenhum perfil de jogo encontrado! 
+    Nenhum perfil de jogo encontrado!
 
     Se você é um novo usuário do Minecraft, faça o login pelo menos uma vez no
     Minecraft Official Launcher.
@@ -944,7 +944,7 @@ modpack:
   urlHint: A URL da página inicial do seu modpack
 modpackImportConfirm:
   description: |-
-    Detecte que você solta um arquivo no lançador. 
+    Detecte que você solta um arquivo no lançador.
     Você está tentando importar um modpack?
   title: Você está tentando importar um modpack?
 modrinth:
@@ -1073,7 +1073,7 @@ modrinth:
   licenses:
     name: Licenças
   loginHint: |-
-    A operação requer Modrinth para executar. 
+    A operação requer Modrinth para executar.
     O lançador abrirá uma janela do navegador para fazer login Modrinth.
   loginTitle: Faça login no modrinth
   modLoaders:
@@ -1345,11 +1345,11 @@ server:
   expectedVersions: Versões Suportadas
   export: Servidor de exportação
   exportNoFilesHint: |-
-    Nenhum arquivo de servidor encontrado. 
+    Nenhum arquivo de servidor encontrado.
     Você pode executar o servidor no local uma vez para gerar alguns arquivos.
   exportOption: Opções de exportação do servidor
   exportSSHAuthenticationFailed: |-
-    Todos os métodos de autenticação falharam. 
+    Todos os métodos de autenticação falharam.
     Verifique o nome de usuário/senha ou a chave privada.
   exportSSHOptions: Opções SSH
   exportSSHPrivateKeyPath: Caminho -chave privado ssh
@@ -1558,8 +1558,8 @@ setup:
       O diretório selecionado não está vazio. Tudo bem, mas certifique-se de
       fazer backup dos seus dados..
     invalidChar: |-
-      O caminho contém caracteres inválidos! 
-      Isso pode fazer com que o Minecraft não comece! 
+      O caminho contém caracteres inválidos!
+      Isso pode fazer com que o Minecraft não comece!
       Plaese usa apenas caracteres e símbolo em inglês!
     noPermission: >-
       O launcher não tem permissão para acessar o diretório selecionado! Por
@@ -1662,7 +1662,7 @@ theme:
   selectMusic: Selecionar Música
   selectVideo: Selecionar Vídeo
   title: X Minecraft Launcher
-title: X Minecraft Launcher
+title: swsk launcher
 transportType:
   host: Candidato Host
   prflx: Candidato Reflexivo Peer

@@ -95,7 +95,7 @@ ago:
 askAICrash:
   copyPrompt: Скопіюйте підказку, щоб запитати AI
   description: |-
-    Нехай AI допоможе вам зрозуміти краху гри! 
+    Нехай AI допоможе вам зрозуміти краху гри!
     Дотримуйтесь інструкцій нижче, щоб запитати AI про цю гру!
   selectPlatform: Відкрийте платформу AI та вставте підказку, яку ви щойно скопіювали.
 authProfileAddedNotification: Профіль автентифікації {name} додано
@@ -762,7 +762,7 @@ loginError:
     Не вдалося обміняти токен Minecraft за допомогою токена Xbox. Будь ласка,
     переконайтеся, що у вас є Minecraft в Xbox, або спробуйте ще раз.
   loginXboxAgeRestricted: >-
-    Не ввійти в систему xbox через епоху віку. 
+    Не ввійти в систему xbox через епоху віку.
 
     Будь ласка, переконайтеся, що вік встановлений для вашого облікового запису
     Microsoft, а вік перевищує 18.
@@ -936,7 +936,7 @@ modrinth:
     512x+: 512x+
     64x: 64x
     8x-: 8x-
-    adventure: Пригоди
+    adventure: Пригода
     atmosphere: Атмосфера
     audio: Аудіо
     blocks: Блоки
@@ -1566,7 +1566,7 @@ setup:
   path: Поточний шлях
   title: >-
     Ласкаво просимо до X Minecraft Launcher. Перш ніж почати, нам потрібно, щоб
-    ви 
+    ви
 shaderPack:
   deletion: Видалити пакет шейдерів
   deletionHint: Це видалить файл пакета шейдерів {path} і не може бути скасовано.
@@ -1649,7 +1649,7 @@ theme:
   selectMusic: Вибрати музику
   selectVideo: Вибрати відео
   title: X Minecraft Launcher
-title: X Minecraft Launcher
+title: swsk launcher
 transportType:
   host: Кандидат хоста
   prflx: Кандидат Peer Reflexive
