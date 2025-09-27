@@ -12,6 +12,16 @@ import { autoUpdater } from 'electron-updater'
 import 'source-map-support/register'
 import './index'
 
+// Ensure AppUserModelID is set early during development on Windows so that
+// notifications and tasks are associated correctly.
+if (process.platform === 'win32') {
+  try {
+    app.setAppUserModelId('com.swsk.launcher')
+  } catch {
+    // ignore failures - best-effort
+  }
+}
+
 console.log(`Process id=${process.pid}`)
 
 app.on('browser-window-created', (event, w) => {

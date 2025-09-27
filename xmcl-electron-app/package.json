@@ -3,7 +3,7 @@
     "productName": "SWSK Launcher",
     "private": true,
     "main": "./index.js",
-    "version": "0.52.3",
+    "version": "1.0.0",
     "author": "emkacz <akowalczuk@emkacz.pl>",
     "description": "swsk launcher - A modern Minecraft launcher",
     "license": "MIT",

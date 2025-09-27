@@ -118,6 +118,16 @@ export default class ElectronLauncherApp extends LauncherApp {
   readonly session: ElectronSession
 
   constructor() {
+    // Ensure AppUserModelID is set as early as possible on Windows. This must be
+    // done before creating shortcuts, notifications, or any other actions that
+    // rely on the AppUserModelID so Windows associates them with the right app.
+    if (process.platform === 'win32') {
+      try {
+        app.setAppUserModelId('com.swsk.launcher')
+      } catch {
+        // best-effort; if it fails here the existing plugin still sets it later
+      }
+    }
     super(app,
       new ElectronShell(),
       new ElectronSecretStorage(join(app.getPath('appData'), LAUNCHER_NAME, IS_DEV ? 'secret-dev' : 'secret')),
@@ -185,8 +195,7 @@ export default class ElectronLauncherApp extends LauncherApp {
       try {
         const uri = this.windowsUtils.getAppInstallerUri()
         const url = new URL(uri)
-        const appUrl = url.searchParams.get('app') || ''
-        return appUrl
+        return url.searchParams.get('app') || ''
       } catch {
         return ''
       }

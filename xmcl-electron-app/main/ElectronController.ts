@@ -94,6 +94,20 @@ export class ElectronController implements LauncherAppController {
     window.webContents.setWindowOpenHandler(this.windowOpenHandler)
     window.webContents.on('will-navigate', this.onWebContentWillNavigate)
     window.webContents.on('did-create-window', this.onWebContentCreateWindow)
+    // Ensure renderer can't overwrite the window title for windows created by
+    // webContents (e.g., from window.open). Force our product name to avoid
+    // showing legacy names like "X Minecraft Launcher".
+    try {
+      window.webContents.on('page-title-updated', (e) => {
+        try { e.preventDefault() } catch {}
+        window.setTitle('SWSK Launcher')
+      })
+      window.webContents.on('did-finish-load', () => {
+        window.setTitle('SWSK Launcher')
+      })
+    } catch {
+      // best-effort
+    }
     window.once('ready-to-show', () => {
       window.show()
     })
@@ -231,7 +245,7 @@ export class ElectronController implements LauncherAppController {
   async startMigrate() {
     const restoredSession = this.app.session.getSession(defaultApp.url)
     const browser = new BrowserWindow({
-      title: 'XMCL Launcher Migrate',
+      title: 'SWSK Launcher Migrate',
       frame: false,
       resizable: false,
       width: 600,
@@ -242,6 +256,14 @@ export class ElectronController implements LauncherAppController {
       },
     })
     browser.loadURL(migrateWinUrl)
+    // Prevent renderer from changing migration window title.
+    browser.webContents.on('page-title-updated', (e) => {
+      try { e.preventDefault() } catch {}
+      browser.setTitle('SWSK Launcher Migrate')
+    })
+    browser.webContents.on('did-finish-load', () => {
+      browser.setTitle('SWSK Launcher Migrate')
+    })
 
     this.migrationRef = browser
   }
@@ -273,7 +295,7 @@ export class ElectronController implements LauncherAppController {
 
   async createBrowseWindow() {
     const browser = new BrowserWindow({
-      title: 'XMCL Launcher Browser',
+      title: 'SWSK Launcher Browser',
       frame: false,
       transparent: true,
       resizable: false,
@@ -288,6 +310,14 @@ export class ElectronController implements LauncherAppController {
     })
 
     browser.loadURL(browserWinUrl)
+    // Prevent renderer from changing browse window title.
+    browser.webContents.on('page-title-updated', (e) => {
+      try { e.preventDefault() } catch {}
+      browser.setTitle('SWSK Launcher Browser')
+    })
+    browser.webContents.on('did-finish-load', () => {
+      browser.setTitle('SWSK Launcher Browser')
+    })
     browser.on('ready-to-show', () => {
       this.setWindowBlurEffect(browser)
     })
@@ -424,6 +454,14 @@ export class ElectronController implements LauncherAppController {
     }
     this.logger.log(url.toString())
     browser.loadURL(url.toString())
+    // Prevent renderer from changing window title — force our product name.
+    browser.webContents.on('page-title-updated', (e) => {
+      try { e.preventDefault() } catch {}
+      browser.setTitle('SWSK Launcher')
+    })
+    browser.webContents.on('did-finish-load', () => {
+      browser.setTitle('SWSK Launcher')
+    })
 
     this.logger.log(`Load main window url ${url.toString()}`)
 

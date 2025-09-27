@@ -78,6 +78,11 @@ export const config = {
   win: {
     certificateFile: undefined as string | undefined,
     icon: 'icons/swsk.ico',
+    // Explicit metadata for the produced Windows executable. These fields
+    // help Windows display the correct name in Task Manager and file
+    // properties (File description, Company name, etc.).
+    executableName: 'swsk-launcher',
+    publisherName: 'emkacz',
     target: [
       {
         target: 'zip',
