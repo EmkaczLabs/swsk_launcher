@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="683df624-f4cc-4dad-8266-a3bcc24052b7" name="Changes" comment="some updates i forgor updated languages">
+    <list default="true" id="683df624-f4cc-4dad-8266-a3bcc24052b7" name="Changes" comment="some updates i forgor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/build/electron-builder.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/build/electron-builder.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/ElectronController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/ElectronController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/ElectronLauncherApp.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/ElectronLauncherApp.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/defaultApp.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/defaultApp.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/index.dev.ts" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/index.dev.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/locales/hu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/locales/hu.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-electron-app/main/locales/ja-JP.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/main/locales/ja-JP.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xmcl-electron-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-electron-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmcl-keystone-ui/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/xmcl-keystone-ui/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,30 +37,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Shell Script.main.executor&quot;: &quot;Run&quot;,
-    &quot;Shell Script.renderer.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/swsk_build&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\swsk_build\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Shell Script.main.executor": "Run",
+    "Shell Script.renderer.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/swsk_build",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\wwmky\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wwmky\IdeaProjects\swsk_launcher\xmcl-electron-app\main\locales" />
@@ -133,7 +125,8 @@
       <updated>1758925811938</updated>
       <workItem from="1758925813671" duration="14646000" />
       <workItem from="1759012472150" duration="133000" />
-      <workItem from="1759012650106" duration="3903000" />
+      <workItem from="1759012650106" duration="5579000" />
+      <workItem from="1759022113466" duration="3369000" />
     </task>
     <task id="LOCAL-00001" summary="visuals update">
       <option name="closed" value="true" />
@@ -159,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759013270298</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some updates i forgor">
+      <option name="closed" value="true" />
+      <created>1759017447826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759017447826</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="visuals update" />
     <MESSAGE value="some updates i forgor updated languages" />
-    <option name="LAST_COMMIT_MESSAGE" value="some updates i forgor updated languages" />
+    <MESSAGE value="some updates i forgor" />
+    <option name="LAST_COMMIT_MESSAGE" value="some updates i forgor" />
   </component>
 </project>
