@@ -1,0 +1,87 @@
+server {
+    server_name swsk.net www.swsk.net;
+
+    root /var/www/swsk;
+    index index.html;
+
+    # Serve SPA - fallback to index.html
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    # Cache static assets (hashed filenames)
+    location ~* \.(?:css|js|json|svg|png|jpg|jpeg|webp|woff2?|ttf|ico)$ {
+        try_files $uri =404;
+        expires 30d;
+        add_header Cache-Control "public, max-age=2592000, immutable";
+        access_log off;
+    }
+
+    # Short caching for index and html
+    location ~* \.(?:html?)$ {
+        try_files $uri =404;
+        expires 1h;
+        add_header Cache-Control "public, max-age=3600";
+    }
+
+    # Service worker or similar
+    location = /service-worker.js {
+        try_files $uri =404;
+        expires 1h;
+        add_header Cache-Control "public, max-age=3600";
+    }
+
+    # Proxy API requests to backend on 127.0.0.1:8081
+    location /api/ {
+        proxy_pass http://127.0.0.1:8081/api/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Port $server_port;
+        proxy_http_version 1.1;
+        proxy_connect_timeout 5s;
+        proxy_send_timeout 30s;
+        proxy_read_timeout 60s;
+        proxy_redirect off;
+        # For websockets if ever needed
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection $http_connection;
+    }
+
+    # Deny access to sensitive files
+    location ~ /\.(?:env|git) {
+        deny all;
+        access_log off;
+        log_not_found off;
+    }
+
+    # Security headers
+    add_header X-Frame-Options SAMEORIGIN;
+    add_header X-Content-Type-Options nosniff;
+    add_header Referrer-Policy no-referrer-when-downgrade;
+
+    # Use the letsencrypt cert paths (Certbot-managed)
+    listen [::]:443 ssl ipv6only=on; # managed by Certbot
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/swsk.net/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/swsk.net/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+    access_log /var/log/nginx/swsk.access.log;
+    error_log  /var/log/nginx/swsk.error.log;
+}
+
+# Redirect HTTP to HTTPS (Certbot-managed)
+server {
+    if ($host = swsk.net) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+    listen 80;
+    listen [::]:80;
+    server_name swsk.net www.swsk.net;
+    return 404; # managed by Certbot
+}
